@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>فروشگاه من</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+   
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    🚚 ارسال رایگان برای سفارش‌های بالای ۵۰۰ هزار تومان
+  </div>
+
+  <header class="desktop-header">
+    <div class="header-container">
+      <a href="#" class="logo">فروشگاه من</a>
+      
+      <div class="search-bar">
+        <input type="text" placeholder="جستجوی محصول...">
+      </div>
+      
+      <div class="desktop-actions">
+        <a href="#" class="icon-link" title="حساب کاربری">
+          <i class="bi bi-person" style="font-size: 1.3rem;"></i>
+        </a>
+        <a href="#" class="icon-link" title="سبد خرید">
+          <i class="bi bi-cart2" style="font-size: 1.3rem;"></i>
+          <span class="badge">3</span>
+        </a>
+      </div>
+    </div>
+  </header>
+  
+  <nav class="desktop-nav">
+    <div class="desktop-nav-links">
+      <a href="#">خانه</a>
+      <a href="#">پوشاک</a>
+      <a href="#">الکترونیک</a>
+      <a href="#">خانه و آشپزخانه</a>
+      <a href="#">لوازم آرایشی</a>
+      <a href="#">تماس با ما</a>
+    </div>
+  </nav>
+
+  <header class="mobile-header">
+    <button class="menu-toggle" onclick="openMenu()">☰</button>
+    <a href="#" class="logo">فروشگاه من</a>
+    <div class="mobile-actions">
+      <a href="#" class="icon-link" title="سبد خرید">
+        <i class="bi bi-cart2" style="font-size: 1.3rem;"></i>
+        <span class="badge">3</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="menu-overlay" id="menuOverlay" onclick="closeMenu()"></div>
+  
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="menu-header">
+      <h3>منو</h3>
+      <button class="menu-close" onclick="closeMenu()">×</button>
+    </div>
+    
+    <input type="text" class="menu-search" placeholder="جستجوی محصولات...">
+    
+    <div class="menu-links">
+      <a href="#"><i class="bi bi-house"></i> خانه</a>
+      <a href="#"><i class="bi bi-person"></i> حساب کاربری</a>
+      <a href="#"><i class="bi bi-search"></i> جستجو</a>
+      <a href="#"><i class="bi bi-tags"></i> پوشاک</a>
+      <a href="#"><i class="bi bi-laptop"></i> الکترونیک</a>
+      <a href="#"><i class="bi bi-house-door"></i> خانه و آشپزخانه</a>
+      <a href="#"><i class="bi bi-heart"></i> لوازم آرایشی</a>
+      <a href="#"><i class="bi bi-headset"></i> تماس با ما</a>
+    </div>
+  </div>
+  
+
+  <script src="scripts.js">
+    
+  </script>
+
+</body>
+</html>
